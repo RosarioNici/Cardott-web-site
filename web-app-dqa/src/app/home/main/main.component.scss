@@ -1,0 +1,48 @@
+
+/*#region*/
+
+.text-h1{
+  font-size: xx-large;
+    font-weight: 700;
+}
+.text-h5{
+  font-size: large;
+  font-weight: 800;
+}
+
+#blue-written {
+    color: #2d64e7;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.thumb {
+    text-decoration: none;
+    color: #666;
+    text-align: center;
+    font-weight: 500;
+}
+
+.thumb:hover {
+    color: black;
+    font-size: large;
+}
+
+.card-thumb {
+    opacity: .7;
+}
+
+.card-thumb:hover {
+    border-bottom: 2px solid #2d64e7;
+    opacity: 1;
+}
+
+.img-logo{
+  width: 450px;
+  height: 300px;
+}
+
+.icon-thumb{
+  color: black;
+}
+/*#endregion*/

@@ -1,0 +1,42 @@
+<section class="container-lg">
+  <!-- play five presentation -->
+
+  <div class="container-lg">
+      <div class="text-center pt-4">
+          <h6 id="blue-written">DQA&copy; HAS NO LIMITS</h6>
+      </div>
+      <div class="text-center py-4 py-4 text-h1">
+          <h1>Ecco l'app che rivoluzionerà l'HACCP</h1>
+      </div>
+      <div class="text-center pb-3 text-h5 ">
+          <h5 class="fw-bold ">Scopri nuove possibilità di gestione della sicurezza alimentare totalmente inaspettate</h5>
+      </div>
+  </div>
+
+  <div class="container-lg row align-items-center py-5">
+      <div class="container-sm col-lg-6  pt-5 text-center">
+          <div class="pt-5 pb-3">
+              <h1 class="fw-bold ">DQA&copy; Digital Quality Assurance</h1>
+          </div>
+          <div class="py-3">
+              <h6>Prova a gestire la tua attività con DQA&copy;</h6>
+          </div>
+          <div class="py-4">
+              <button class="button is-danger is-rounded">Richiedi la tua DEMO</button>
+          </div>
+      </div>
+
+      <div class="col-lg-6">
+          <img class="img-logo rounded-4 animate__animated animate__fadeInTopRight" src="../../../assets/img/dqa_logo.png" alt="dqa logo">
+      </div>
+  </div>
+  <div class="container-lg d-flex justify-content-around py-5 flex-wrap text-center" >
+    <div class="card-thumb py-3 col-4 col-lg-3" *ngFor="let item of dataIcons">
+        <img class="rounded-4" src="https://picsum.photos/200" alt="">
+        <div class="text-thumb ">
+            <a class="thumb" href="#">{{item.title}}</a>
+        </div>
+    </div>
+    <!-- /thumb section -->
+  </div>
+</section>
