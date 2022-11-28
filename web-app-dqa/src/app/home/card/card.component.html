@@ -1,0 +1,12 @@
+
+<div class="d-flex justify-content-center m-5">
+  <div class="card m-3" style="width: 18rem;" *ngFor="let item of data">
+    <img src="https://picsum.photos/200" class="card-img-top" alt="prodotto">
+    <div class="card-body">
+      <h5 class="card-title fw-bold">{{item.title}}</h5>
+      <p class="card-text">{{item.description}}</p>
+      <p class="price">{{item.price}}</p>
+      <a href="#" class="button is-danger is-hovered">Acquista</a>
+    </div>
+  </div>
+</div>

@@ -49,13 +49,19 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainComponent } from './home/main/main.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
+import { CardComponent } from './home/card/card.component';
+import { FooterComponent } from './home/footer/footer.component';
+import { SocialComponent } from './home/social/social.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MainComponent,
-    CarouselComponent
+    CarouselComponent,
+    CardComponent,
+    FooterComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
