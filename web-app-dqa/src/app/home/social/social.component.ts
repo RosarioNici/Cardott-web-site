@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class SocialComponent {
 
+logoSocial= ['../../../assets/img/facebook.jpg', '../../../assets/img/instagram.jpg', '../../../assets/img/twitter.jpg', '../../../assets/img/youtube.png']
+
+
 }

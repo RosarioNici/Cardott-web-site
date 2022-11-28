@@ -1,11 +1,11 @@
-<section class="container-lg">
+<section class="container-lg my-5 py-5">
   <div class="container-lg p-5">
       <div class="text-center px-4 py-4">
-          <h1>Seguici sui social media</h1>
+          <h1 class="text-h1">Seguici sui social media</h1>
       </div>
       <div class="row align-items-center py-5">
-          <div class="col-6 my-2 col-md-3">
-            <img class="img-fluid social" src="./img/twitter.jpg" alt="Twitter">
+          <div class="col-6 my-2 col-md-3" *ngFor="let item of logoSocial">
+            <img class="img-fluid social" [src]="[item]" alt="Social">
           </div>
       </div>
   </div>
